@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header Styles */
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+header h1 {
+    float: left;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    box-shadow:red;
+}
+
+/* Hero Section */
+.hero {
+    background: #f4f4f4;
+    padding: 30px 0;
+    text-align: center;
+}
+
+.hero h2 {
+    margin: 0;
+}   
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    margin: 10px;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+/* Service Section */
+#services {
+    background: #e2e2e2;
+    padding: 20px 0;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+/* About Section */
+#about {
+    padding: 20px 0;
+}
+
+/* Contact Section */
+#contact {
+    background: #f4f4f4;
+    padding: 20px 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+}
+
+form input, form select, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+form button {
+    background: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #555;
+}
+
+/* Appointment Section */
+#appointment {
+    padding: 20px 0;
+}
+
+/* Footer Styles */
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+.socials a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+.socials a:hover {
+    text-decoration: underline;
+}
